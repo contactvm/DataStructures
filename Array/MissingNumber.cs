@@ -7,7 +7,11 @@
 //12 second
 //9 third
 //4 forth
-
+// Complexity Analysis: 
+// Time Complexity: O(n). 
+// Only one traversal of the array is needed.
+// Space Complexity: O(1). 
+// No extra space is needed
 using System;
 
 public class MissingNumber
