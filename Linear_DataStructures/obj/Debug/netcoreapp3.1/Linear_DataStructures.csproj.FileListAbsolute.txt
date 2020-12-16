@@ -1,0 +1,13 @@
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\bin\Debug\netcoreapp3.1\Linear_DataStructures.exe
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\bin\Debug\netcoreapp3.1\Linear_DataStructures.deps.json
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\bin\Debug\netcoreapp3.1\Linear_DataStructures.runtimeconfig.json
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\bin\Debug\netcoreapp3.1\Linear_DataStructures.runtimeconfig.dev.json
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\bin\Debug\netcoreapp3.1\Linear_DataStructures.dll
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\bin\Debug\netcoreapp3.1\Linear_DataStructures.pdb
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\obj\Debug\netcoreapp3.1\Linear_DataStructures.csprojAssemblyReference.cache
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\obj\Debug\netcoreapp3.1\Linear_DataStructures.AssemblyInfoInputs.cache
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\obj\Debug\netcoreapp3.1\Linear_DataStructures.AssemblyInfo.cs
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\obj\Debug\netcoreapp3.1\Linear_DataStructures.csproj.CoreCompileInputs.cache
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\obj\Debug\netcoreapp3.1\Linear_DataStructures.dll
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\obj\Debug\netcoreapp3.1\Linear_DataStructures.pdb
+C:\Viraj\Interview\gitcode\DataStructures\Linear_DataStructures\obj\Debug\netcoreapp3.1\Linear_DataStructures.genruntimeconfig.cache
