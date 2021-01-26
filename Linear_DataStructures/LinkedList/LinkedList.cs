@@ -301,8 +301,7 @@ namespace Linear_DataStructures
 
         public bool HasLoop()
         {
-
-
+            //Floyd's cycle detection algorithm
             var a = first.next;
             var b = first.next.next;
             while (b != null || b.next != null)
@@ -327,8 +326,6 @@ namespace Linear_DataStructures
             ll1.AddLast(20);
             ll1.AddLast(30);
             ll1.AddLast(40);
-
-
             ll1.AddLast(50);
             ll1.last.next = node;
             ;

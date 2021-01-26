@@ -33,6 +33,12 @@ public class FindDuplicateArray{
 			}
 		}
 	}
+// https://www.geeksforgeeks.org/duplicates-array-using-o1-extra-space-set-2/?ref=rp
+	
+// Traverse the given array from start to end.
+// For every element in the array increment the arr[i]%n‘th element by n.
+// Now traverse the array again and print all those indices i for which arr[i]/n is greater than 1. Which guarantees that the number n has been added to that index.
+// Note: This approach works because all elements are in the range from 0 to n-1 and arr[i]/n would be greater than 1 only if a value “i” has appeared more than once. 
 	static void printRepeating(int[] arr, int n)
     {
         // First check all the values that are
@@ -72,5 +78,9 @@ public class FindDuplicateArray{
 		printRepeating(b,b.Length);
 	}
 }
+// Complexity Analysis: 
 
-//Method 2
+// Time Complexity: O(n). 
+// Only two traversal is needed. So the time complexity is O(n)
+// Auxiliary Space: O(1). 
+// As no extra space is needed, so the space complexity is constant

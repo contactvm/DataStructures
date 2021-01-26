@@ -1,9 +1,9 @@
 using System.IO;
 using System;
 
-class Program
+class test
 {
-    static void Main()
+    static void test1()
     {
         int[]a ={4,6,1,2,3,0,-1};
         //sort 
