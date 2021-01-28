@@ -8,7 +8,10 @@ namespace StringProblems
         {
             Console.WriteLine("Hello World!");
             //PrintNonRepeatCh.DriverCode();
-            PrintDuplicatesCharacters.DriverCode();
+            
+            //PrintDuplicatesCharacters.DriverCode();
+
+            LongestPalindromicSubstring.DriverCode();
 
         }
     }
