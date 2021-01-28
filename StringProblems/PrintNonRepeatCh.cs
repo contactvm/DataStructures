@@ -55,13 +55,13 @@ namespace StringProblems
         }
         public static void DriverCode()
         {
-            //example
+            //example with edge cases
             Console.WriteLine(GetMaxLnPrintNonRepeatCh("abcabcab"));
             Console.WriteLine(GetMaxLnPrintNonRepeatCh("bbbbb"));
             Console.WriteLine(GetMaxLnPrintNonRepeatCh("pwwkew"));
             Console.WriteLine(GetMaxLnPrintNonRepeatCh(""));
-            Console.WriteLine(GetMaxLnPrintNonRepeatCh(" "));
             Console.WriteLine(GetMaxLnPrintNonRepeatCh("au"));
+            Console.WriteLine(GetMaxLnPrintNonRepeatCh(" "));
         }
     }
 }
