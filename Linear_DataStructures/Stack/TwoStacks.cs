@@ -3,7 +3,7 @@ namespace Linear_DataStructures
 {
     public class TwoStacks
     {
-        Array
+        
         int top1;
         int top2;
         int[] items;
