@@ -48,7 +48,12 @@ namespace Linear_DataStructures
 
                 //Stack.DriverCode();
                 //StringCombination.DriverCode();
-                 Queue.QueueQuestions.DriverCode(); 
+                 //Queue.QueueQuestions.DriverCode(); 
+
+
+                 //-----ARRAY-----//
+                 SegregateArray.DriverCode();
+                
                }
             catch(Exception ex){
                 Console.WriteLine(ex.Message);
