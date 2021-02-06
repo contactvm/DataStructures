@@ -7,12 +7,12 @@ namespace StringProblems
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
-            PrintNonRepeatCh.DriverCode();
+            //PrintNonRepeatCh.DriverCode();
             
             //PrintDuplicatesCharacters.DriverCode();
 
             //LongestPalindromicSubstring.DriverCode();
-
+            FirstUniqueCharacterString.DriverCode();
         }
     }
 }
