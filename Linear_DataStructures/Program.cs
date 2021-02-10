@@ -53,9 +53,10 @@ namespace Linear_DataStructures
                   //-----QUEUE-----//
                  //Queue.QueueQuestions.DriverCode(); 
                  //ArrayQueue.DriverCode()  ; 
-                StackQueue.DriverCode();
+                //StackQueue.DriverCode();
                  //-----ARRAY-----//
                  //SegregateArray.DriverCode();
+                 MaxStockProfit.DriverCode();
                 
                }
             catch(Exception ex){
