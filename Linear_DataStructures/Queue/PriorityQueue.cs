@@ -2,7 +2,7 @@
 
 namespace Linear_DataStructures
 {
-    public class PirorityQueue
+    public class PriorityQueue
     {
         private int[] a= new int [5];
         int count=0;
@@ -62,7 +62,7 @@ namespace Linear_DataStructures
 
         public static void DriverCode()
         {
-            PirorityQueue pirority= new PirorityQueue();
+            PriorityQueue pirority= new PriorityQueue();
             
             pirority.Add(10);
             pirority.Add(30);
