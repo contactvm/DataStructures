@@ -56,11 +56,14 @@ namespace Linear_DataStructures
                 //StackQueue.DriverCode();
                 //PriorityQueue.DriverCode();
                 //ReverseQueue.DriverCode();
-                LinkedListQueue.DriverCode();
+                //LinkedListQueue.DriverCode();
 
                  //-----ARRAY-----//
                  //SegregateArray.DriverCode();
                  //MaxStockProfit.DriverCode();
+
+                 //------HASHFUNCTIONS-------//
+                 FirstRepeatCharacter.DriverCode();
                 
                }
             catch(Exception ex){
