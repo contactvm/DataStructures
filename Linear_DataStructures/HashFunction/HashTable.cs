@@ -22,7 +22,7 @@ namespace Linear_DataStructures
             Entry entry = new Entry() { Key = key, Value = value };
 
             var bucket=entries[index];
-            foreach (var e in entries[index])
+            foreach (var e in bucket)
             {
                 if (e.Key == key)
                 {
@@ -33,6 +33,20 @@ namespace Linear_DataStructures
             }
             bucket.AddLast(entry); // if key check is not present then same key with multiple values
                 
+        }
+        public string get(int key)
+        {
+            var index = Hash(key);
+            var bucket=entries[index];
+           foreach (var e in bucket)
+            {
+                if (e.Key == key)
+                {
+                    return e.Value;
+                }
+                
+            }
+            return null;
         }
 
         private int Hash(int key)
@@ -45,6 +59,8 @@ namespace Linear_DataStructures
             HashTable hs = new HashTable();
             hs.put(6, "A");
             hs.put(6, "B");
+            System.Console.WriteLine(hs.get(6));
+            
         }
     }
 }
