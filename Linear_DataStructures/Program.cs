@@ -68,6 +68,10 @@ namespace Linear_DataStructures
                  //------HASHFUNCTIONS-------//
                     //FirstRepeatCharacter.DriverCode();
                 
+
+                //-----------------------HASH TABLE------------------------------------//
+                HashTable.DriverCode();
+
                }
             catch(Exception ex){
                 Console.WriteLine(ex.Message);
