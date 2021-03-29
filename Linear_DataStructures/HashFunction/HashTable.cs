@@ -21,7 +21,7 @@ namespace Linear_DataStructures
             }
             Entry entry = new Entry() { Key = key, Value = value };
 
-            var bucket=entries[index];
+            var bucket = entries[index];
             foreach (var e in bucket)
             {
                 if (e.Key == key)
@@ -29,25 +29,76 @@ namespace Linear_DataStructures
                     e.Value = value;
                     return;
                 }
-                
+
             }
             bucket.AddLast(entry); // if key check is not present then same key with multiple values
-                
+
         }
         public string get(int key)
         {
-            var index = Hash(key);
-            var bucket=entries[index];
-           foreach (var e in bucket)
+
+        var entry = getEntry(key);
+            if (entry == null)
             {
-                if (e.Key == key)
-                {
-                    return e.Value;
-                }
-                
+                throw new System.InvalidOperationException("No entities found");
             }
-            return null;
+            if (entry != null)
+            {
+                return entry.Value;
+            }
+
+            // var index = Hash(key);
+            // var bucket = entries[index];
+            // if (bucket != null)
+            // {
+            //     foreach (var e in bucket)
+            //     {
+            //         if (e.Key == key)
+            //         {
+            //             return e.Value;
+            //         }
+
+            //     }
+            // }
+             return null;
         }
+
+        public void remove(int key)
+        {
+            var entry = getEntry(key);
+            if (entry == null)
+            {
+                throw new System.InvalidOperationException("No entities found");
+            }
+            if (entry != null)
+            {
+                getBucket(key).Remove(entry);
+               
+            }
+             
+        }
+        private LinkedList<Entry>  getBucket(int key)
+        {
+            return entries[Hash(key)];
+        }
+        private Entry getEntry(int key)
+        {  
+            
+            var bucket = getBucket(key);
+            
+            if (bucket != null)
+            {
+                foreach (var e in bucket)
+                {
+                    if (e.Key == key)
+                    {
+                        return e;
+                    }
+                }
+            }
+           return null;
+        }
+
 
         private int Hash(int key)
         {
@@ -59,8 +110,12 @@ namespace Linear_DataStructures
             HashTable hs = new HashTable();
             hs.put(6, "A");
             hs.put(6, "B");
+            hs.put(11, "A+");
+ 
             System.Console.WriteLine(hs.get(6));
-            
+            hs.remove(101);
+
+
         }
     }
 }
