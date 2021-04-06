@@ -70,7 +70,8 @@ namespace Linear_DataStructures
                 
 
                 //-----------------------HASH TABLE------------------------------------//
-                HashTable.DriverCode();
+               // HashTable.DriverCode();
+                HashTableExercises.DriverCode();
 
                }
             catch(Exception ex){
